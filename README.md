@@ -1,8 +1,8 @@
-# 🎓 English Learning Platform
+# 🚀 Questly
 
 *[Baca dalam Bahasa Indonesia](#bahasa-indonesia)*
 
-An interactive gamified platform for learning English with a focus on noun phrases. Features modular learning content, various question types, progress tracking, and a comprehensive admin panel for content management.
+An interactive gamified platform for creating and delivering learning modules, quizzes, and assessments — similar to Google Forms but with built-in gamification, rich media support, and progress tracking. Originally built for English learning, now designed for any subject or purpose.
 
 ## ✨ Features
 
@@ -62,8 +62,8 @@ An interactive gamified platform for learning English with a focus on noun phras
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/w4nnnn/english-learning.git
-   cd english-learning
+   git clone https://github.com/w4nnnn/questly.git
+   cd questly
    ```
 
 2. **Install dependencies**
@@ -115,9 +115,9 @@ After seeding the database, you can log in with:
 - **Username**: `admin`
 - **Password**: `admin123`
 
-### Student Flow
-1. Browse available learning modules on the home page
-2. Select a module to start learning
+### User Flow
+1. Browse available modules on the home page
+2. Select a module to start
 3. Complete materials and answer questions
 4. Track your progress with XP and hearts
 5. Retry questions if you get them wrong
@@ -128,17 +128,17 @@ After seeding the database, you can log in with:
 3. Create new modules or edit existing ones
 4. Add various content types (headers, materials, questions)
 5. Drag and drop to reorder items
-6. Publish modules for students
+6. Publish modules for users
 
 ## 🗂️ Project Structure
 
 ```
-english-learning/
+questly/
 ├── app/                      # Next.js app directory
 │   ├── admin/                # Admin panel pages
 │   ├── api/                  # API routes
 │   ├── login/                # Authentication pages
-│   ├── modules/              # Student module pages
+│   ├── modules/              # User module pages
 │   └── globals.css           # Global styles
 ├── components/               # React components
 │   ├── admin/                # Admin-specific components
@@ -199,7 +199,7 @@ The application uses CSS custom properties for theming. Modify `app/globals.css`
 - Animation timing
 
 ### Content
-Seed data is located in `lib/db/seed.ts`. Customize the initial modules and content to fit your curriculum.
+Seed data is located in `lib/db/seed.ts`. Customize the initial modules and content to fit your needs.
 
 ## 🚀 Deployment
 
@@ -210,7 +210,7 @@ npm run start
 ```
 
 ### Deploy to Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/w4nnnn/english-learning)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/w4nnnn/questly)
 
 The easiest way to deploy is using [Vercel Platform](https://vercel.com/new).
 
@@ -233,7 +233,7 @@ This project is private and not licensed for public use.
 
 # Bahasa Indonesia
 
-Platform pembelajaran Bahasa Inggris interaktif dengan sistem gamifikasi yang berfokus pada noun phrases. Dilengkapi dengan konten pembelajaran modular, berbagai jenis pertanyaan, pelacakan progres, dan panel admin komprehensif untuk manajemen konten.
+Platform interaktif dengan gamifikasi untuk membuat dan menyajikan modul pembelajaran, kuis, dan asesmen — mirip Google Forms namun dengan gamifikasi bawaan, dukungan media kaya, dan pelacakan progres. Awalnya dibangun untuk pembelajaran Bahasa Inggris, kini dirancang untuk subjek atau kebutuhan apapun.
 
 ## ✨ Fitur
 
@@ -293,8 +293,8 @@ Platform pembelajaran Bahasa Inggris interaktif dengan sistem gamifikasi yang be
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/w4nnnn/english-learning.git
-   cd english-learning
+   git clone https://github.com/w4nnnn/questly.git
+   cd questly
    ```
 
 2. **Install dependencies**
@@ -346,9 +346,9 @@ Setelah seeding database, Anda bisa login dengan:
 - **Username**: `admin`
 - **Password**: `admin123`
 
-### Alur Siswa
-1. Browse modul pembelajaran yang tersedia di halaman utama
-2. Pilih modul untuk mulai belajar
+### Alur Pengguna
+1. Browse modul yang tersedia di halaman utama
+2. Pilih modul untuk memulai
 3. Selesaikan materi dan jawab pertanyaan
 4. Lacak progres Anda dengan XP dan hati
 5. Ulangi pertanyaan jika jawaban salah
@@ -359,17 +359,17 @@ Setelah seeding database, Anda bisa login dengan:
 3. Buat modul baru atau edit yang sudah ada
 4. Tambahkan berbagai jenis konten (header, materi, pertanyaan)
 5. Drag and drop untuk menyusun ulang item
-6. Publikasikan modul untuk siswa
+6. Publikasikan modul untuk pengguna
 
 ## 🗂️ Struktur Project
 
 ```
-english-learning/
+questly/
 ├── app/                      # Direktori app Next.js
 │   ├── admin/                # Halaman panel admin
 │   ├── api/                  # Route API
 │   ├── login/                # Halaman autentikasi
-│   ├── modules/              # Halaman modul siswa
+│   ├── modules/              # Halaman modul pengguna
 │   └── globals.css           # Style global
 ├── components/               # Komponen React
 │   ├── admin/                # Komponen khusus admin
@@ -430,7 +430,7 @@ Aplikasi menggunakan CSS custom properties untuk theming. Modifikasi `app/global
 - Timing animasi
 
 ### Konten
-Seed data terletak di `lib/db/seed.ts`. Kustomisasi modul awal dan konten sesuai kurikulum Anda.
+Seed data terletak di `lib/db/seed.ts`. Kustomisasi modul awal dan konten sesuai kebutuhan Anda.
 
 ## 🚀 Deployment
 
@@ -441,7 +441,7 @@ npm run start
 ```
 
 ### Deploy ke Vercel
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/w4nnnn/english-learning)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/w4nnnn/questly)
 
 Cara termudah untuk deploy adalah menggunakan [Vercel Platform](https://vercel.com/new).
 
