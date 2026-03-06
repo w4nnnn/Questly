@@ -49,7 +49,7 @@ export function AppHeader({ userName = 'User', xp = 0, showXp = true }: AppHeade
                                 <span className="text-white font-bold text-lg">E</span>
                             </div>
                             <div className="hidden sm:block">
-                                <h1 className="font-bold text-foreground">English Learning</h1>
+                                <h1 className="font-bold text-foreground">Questly</h1>
                                 <p className="text-xs text-muted-foreground">Learn with fun</p>
                             </div>
                         </Link>

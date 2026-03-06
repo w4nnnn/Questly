@@ -79,7 +79,7 @@ export function AdminSidebar({ userName = 'Admin' }: AdminSidebarProps) {
                         </div>
                         <div>
                             <h1 className="font-bold text-lg">Admin Panel</h1>
-                            <p className="text-xs text-sidebar-foreground/60">English Learning</p>
+                            <p className="text-xs text-sidebar-foreground/60">Questly</p>
                         </div>
                     </div>
                 </div>
