@@ -1,7 +1,13 @@
+import type { Metadata } from 'next';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/auth';
 import { redirect } from 'next/navigation';
 import { AdminSidebar } from '@/components/layouts/admin-sidebar';
+
+export const metadata: Metadata = {
+    title: 'Admin Panel',
+    robots: { index: false, follow: false },
+};
 
 export default async function AdminLayout({
     children,
